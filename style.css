@@ -1,0 +1,88 @@
+/*
+  FILE NAME: style.css
+  WRITTEN BY: NIK SYAHDINA ZULAIKHA BINTI BADRUL HISHAM
+  MATRIC NO: A20EC0108
+  DATE: 20/5/2022
+  PURPOSE: Assignment 2
+
+
+https://fonts.google.com/specimen/Caveat?
+*/
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+
+body {
+  background-color: cornsilk;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: contain;
+  background-image: url(https://cdn.wallpapersafari.com/75/29/XKqFgN.gif);
+}
+
+#top {
+  height: 5em;
+}
+
+#top a,
+.totop {
+  text-decoration: none;
+  color: aqua;
+  width: 1em;
+  padding: 5px;
+  background-color: coral;
+}
+
+#top a:hover,
+.totop:hover {
+  color: coral;
+  background-color: aqua;
+}
+
+a.home img {
+  width: 3em;
+  height: 5em;
+  float: right;
+}
+
+h2,
+h3 {
+  background-color: #d7ece4;
+  font-family: "Caveat", cursive;
+  font-size: xx-large;
+}
+
+#About_Me,
+#My_Courses,
+#My_Reason,
+#My_Pets,
+#My_Passion {
+  color: #edbc64;
+  padding: 5px;
+  width: auto;
+  height: 1em;
+  background-color: cornflowerblue;
+}
+
+iframe {
+  border-radius: 1em;
+  width: 25em;
+  position: relative;
+  left: 15em;
+  transition: transform 0.2s; /* Animation */
+}
+/*https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
+iframe:hover {
+  transform: scale(1.2);
+}
+
+.picture {
+  border: 2px solid black;
+}
+
+.personal_inf {
+  font-family: Palatino;
+  font-size: large;
+}
+
+p.descrp_course {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
